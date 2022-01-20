@@ -29,3 +29,23 @@ document.addEventListener('keydown', function(e) {
         moveDodgerRight();
     }
 });
+
+/*
+New Try
+// */
+// const dodger = document.getElementById('dodger');
+// function moveDodgerLeft() {
+//     dodger.addEventListener('keydown', e => {
+//         if (e.key === 'ArrowLeft') {
+//             const leftNumbers = dodger.style.left.replace('px', '');
+//             const left = parseInt(leftNumers, 10);
+
+//             dodger.style.left = `${left - 1}px`;
+//         }
+//     });
+// }
+// moveDodgerLeft();
+
+// function moveDodgerRight() {
+//     console.log('todo');
+// }
